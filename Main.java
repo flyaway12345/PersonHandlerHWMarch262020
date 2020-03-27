@@ -11,7 +11,7 @@ public class Main {
         Person[] allPeople = {p1,p2,p3};
 
         PersonHandler person = new PersonHandler(allPeople);
-        person.getPersonArray();
+
         System.out.println(person.whileLoop());
         System.out.println("##########################");
         System.out.println(person.forLoop());

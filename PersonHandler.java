@@ -55,9 +55,9 @@ public class PersonHandler {
         // identify array's type
         // identify array's variable-name
 
-            for(Person i : getPersonArray()){
-                result += personArray;
-            }
+        for(Person x : getPersonArray()){
+            result += x;
+        }
         // use the above discoveries to declare for-each-loop signature
             // begin loop
                 // get `string Representation` of `currentPerson`
