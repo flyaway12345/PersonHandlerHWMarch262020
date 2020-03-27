@@ -1,5 +1,7 @@
 package com.zipcodewilmington;
 
+import java.util.Arrays;
+
 /**
  * Created by leon on 1/24/18.
  */
@@ -52,7 +54,8 @@ public class PersonHandler {
         String result = "";
         // identify array's type
         // identify array's variable-name
-            for(Person i : personArray){
+
+            for(Person i : getPersonArray()){
                 result += personArray;
             }
         // use the above discoveries to declare for-each-loop signature
@@ -60,12 +63,12 @@ public class PersonHandler {
                 // get `string Representation` of `currentPerson`
                 // append `stringRepresentation` to `result` variable
             // end loop
-
-        return result;
+             return result;
     }
 
 
     public Person[] getPersonArray() {
         return personArray;
     }
+
 }
